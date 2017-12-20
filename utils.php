@@ -21,6 +21,6 @@ function getTypeX($var){
 }
 
 function addScheme($url, $scheme = 'http://'){
-  return parse_url($url, PHP_URL_SCHEME) === null ? $scheme . $url : $url;
+	return parse_url($url, PHP_URL_SCHEME) === null ? $scheme . $url : $url;
 }
 ?>
