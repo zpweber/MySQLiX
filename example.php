@@ -1,3 +1,5 @@
+<?php
+
 private static function ParseConstraints(RouteParserContext $context){
     $constraints = [];
     
